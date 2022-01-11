@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "stonks_shift_bot"
+version = "0.1.0"
+description = ""
+authors = ["Artem <ClasterPack@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.17.1"
+isort = "^5.10.1"
+data = "^0.4"
+aiohttp = "^3.8.1"
+loguru = "^0.5.3"
+flake8 = "^4.0.1"
+aresponses = "^2.1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+tests = ["pytest", "pytest-asyncio", "pytest-aiohttp", "pytest-mock", "aioresponses"]

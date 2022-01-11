@@ -1,0 +1,4 @@
+local variable 'history_tickers' referenced before assignment
+local variable 'history_tickers' referenced before assignment
+local variable 'history_tickers' referenced before assignment
+local variable 'history_tickers' referenced before assignment
