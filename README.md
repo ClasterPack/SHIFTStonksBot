@@ -1,3 +1,7 @@
+***
+**_Read this in other languages: [English](README.eu.md), [Русский](README.md)_**
+***
+
 ## Shift Final:
 
 Телеграм бот для получения котировок акций с Моковской биржи по тикеру акции.
@@ -29,11 +33,8 @@ TelegramBot:
 ```shell script
 poetry install 
 ```
-
-Из виртуального окружения сервис запускается командой
-
-- Чтобы бот работал надо задать stonks_shift_bot рабочей директорией
+Из виртуальной среды сервис запускается командой:
 ```shell script
 python -m stonks_shift_bot.bot
 ```
-
+- Чтобы бот работал надо задать stonks_shift_bot рабочей директорией
